@@ -1,0 +1,2 @@
+# WXMiniProgram_TeacherSIgnInAssistant
+为大学老师涉及的课堂签到测验小助手，基于GPS进行区域限定，然后可以发布一些就简单的选择判断题，在线统计学号姓名然后导出
