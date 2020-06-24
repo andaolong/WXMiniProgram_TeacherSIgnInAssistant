@@ -1,0 +1,71 @@
+{
+	"pages": [
+		"pages/0_selectIdentity/0_selectIdentity",
+		"pages/index/index",
+		"pages/logs/logs",
+		"pages/1_teachers/1-1_chooseTheTypeOfProjectToPublish/1-1_chooseTheTypeOfProjectToPublish",
+		"pages/1_teachers/1-1-1_setInformationForCheckInProject/1-1-1_setInformationForCheckInProject",
+		"pages/1_teachers/1-1-1-1_setGPSArea/1-1-1-1_setGPSArea",
+		"pages/1_teachers/1-1-2_setInformationForTestProject/1-1-2_setInformationForTestProject",
+		"pages/1_teachers/1-1-2-1_setGPSAreaForTest/1-1-2-1_setGPSAreaForTest",
+		"pages/1_teachers/1-2_myPage/1-2_myPage",
+		"pages/1_teachers/1-1-2-2_setQuestion/1-1-2-2_setQuestion",
+		"pages/1_teachers/1-2-1_myProjectPage/1-2-1_myProjectPage",
+		"pages/1_teachers/1-2-2_donatePage/1-2-2_donatePage",
+		"pages/1_teachers/1-2-3_feedBackPage/1-2-3_feedBackPage",
+		"pages/2_students/2-1_searchTheProject/2-1_searchTheProject",
+		"pages/2_students/2-1-1_GPSCheckIn/2-1-1_GPSCheckIn",
+		"pages/2_students/2-1-2_completeTest/2-1-2_completeTest",
+		"pages/2_students/2-2_myPage/2-2_myPage",
+		"pages/2_students/2-2-1_myHistory/2-2-1_myHistory",
+		"pages/2_students/2-2-2_donatePage/2-2-2_donatePage",
+		"pages/2_students/2-2-3_feedBackPage/2-2-3_feedBackPage"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#5364C3",
+		"navigationBarTitleText": "课堂签到测验小助手",
+		"navigationBarTextStyle": "black"
+	},
+	"style": "v2",
+	"sitemapLocation": "sitemap.json",
+	"tabBar": {
+		"color": "#000",
+		"selectedColor": "#328EEB",
+		"list": [
+			{
+				"pagePath": "pages/0_selectIdentity/0_selectIdentity",
+				"iconPath": "images/icon_publish_unselected.png",
+				"selectedIconPath": "images/icon_my_selected.png",
+				"text": "首页"
+			},
+			{
+				"hidden": false,
+				"pagePath": "pages/1_teachers/1-1_chooseTheTypeOfProjectToPublish/1-1_chooseTheTypeOfProjectToPublish",
+				"iconPath": "images/icon_publish_unselected.png",
+				"selectedIconPath": "images/icon_my_selected.png",
+				"text": "首页"
+			},
+			{
+				"hidden":false,
+				"pagePath": "pages/1_teachers/1-2_myPage/1-2_myPage",
+				"iconPath": "images/icon_my_unselected.png",
+				"selectedIconPath": "images/icon_my_selected.png",
+				"text": "我的"
+			},
+			{
+				"pagePath": "pages/2_students/2-1_searchTheProject/2-1_searchTheProject",
+				"iconPath": "images/icon_signin_unselected.png",
+				"selectedIconPath": "images/icon_signin_selected.png",
+				"text": "首页"
+			},
+			{
+				"hidden": true,
+				"pagePath": "pages/2_students/2-2_myPage/2-2_myPage",
+				"iconPath": "images/icon_my_unselected.png",
+				"selectedIconPath": "images/icon_signin_selected.png",
+				"text": "我的"
+			}
+		]
+	}
+}

@@ -1,0 +1,3 @@
+<!--pages/0_selectIdentity/0_ selectIdentity.wxml-->
+<!-- 小程序进去的第一个页面，身份选择页，选择自己是老师还是学生，老师可以发布签到测验项目，学生可以搜索到签到项目然后进行签到测验 -->
+<text>aaaaaaaaaaaaaaaaa</text>
